@@ -98,7 +98,7 @@ test1000:
 clean:
 				@echo " $(_RED)- Cleaning..."
 				$(RM) $(OBJS) push_swap_result.log push_swap_run_args.log
-				@rm -f sources/checker_sources/*.o
+				@rm -f sources/checker_sources/sources/*.o
 
 fclean:			clean
 				$(RM) $(NAME) checker push_swap_run_args.log
